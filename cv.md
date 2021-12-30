@@ -63,3 +63,30 @@ test([0, 1, -8, 2, 0, 5, 0]); // [1, -8, 2, 5, 0, 0, 0]
 test([4, 0, 6, 0, 0, -5]);    // [4, 6, -5, 0, 0, 0]
 test([2, 5, 9, 1, -7]);       // [2, 5, 9, 1, -7]
 ```
+
+## Work Experience
+
+### PHP Developer
+
+[Oxagile](https://www.oxagile.com/)
+
+Jul 2021 - Oct 2021
+
+- Development frontend and backend parts of the admin panel
+- Was involved in estimations
+- Discussions and meetings with the customer
+- Improvements after comments of QA, customer, and designer
+- Made code review and code refactoring of colleagues (GitLab)
+
+### PHP Developer
+
+[EffectiveSoft Corporation](https://www.effectivesoft.com/)
+
+Jul 2020 - Jun 2021
+
+- Developed and designed the whole backend part
+- Was involved in estimations
+- Was involved in meetings with the customer
+- Improvements after comments of QA, customer, and designer
+- Made code review and code refactoring of colleagues (BitBucket)
+- Support and release in production helped with the selection and configuration of server technologies
