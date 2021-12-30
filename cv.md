@@ -19,3 +19,14 @@ programming on PHP, MySQL, and other information technology. As someone who take
 own personal development, I'm continually evaluating and upgrading my skills in order to stay at the cutting plane
 of web development. Created backend part of Consumer Fusion(Web Portal for business management), Internal CRM system
 for Oxagile, Websites on the WordPress, and CraftCMS for Effectivesoft Corporation.
+
+## Skills
+
+- HTML5
+- CSS3
+- JavaScript Basics
+- PHP
+- MySQL
+- Git
+- Linux
+- Docker
