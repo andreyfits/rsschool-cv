@@ -90,3 +90,44 @@ Jul 2020 - Jun 2021
 - Improvements after comments of QA, customer, and designer
 - Made code review and code refactoring of colleagues (BitBucket)
 - Support and release in production helped with the selection and configuration of server technologies
+
+## Recent projects
+
+### CRM system for removing illegitimate negative reviews
+
+[Consumer Fusion](https://consumerfusion.com/)
+
+Consumer Fusion is the only All-in-One Reputation Management Solution that specializes in removing illegitimate negative reviews on over 60+ online review sites.
+
+Technologies
+- PHP(Symfony)
+- PostgreSQL
+- HTML
+- CSS(Bootstrap)
+- JavaScript
+
+### The business card of the company
+
+[Gold Front](https://www.goldfront.com/)
+
+Gold Front is an award-winning creative studio in San Francisco. They help companies find their greatness and tell their story-through branding, advertising, and video production.
+
+Technologies
+- PHP(CraftCMS)
+- MySQL
+- HTML
+- CSS(SCSS)
+- JavaScript
+
+### Corporate Website
+
+[GiftNow](https://www.giftnow.com/)
+
+GiftNow, a digital gifting service offered by Loop Commerce allows shoppers to purchase a gift online without needing to know the recipient’s preferred size or color, or even the shipping address.
+
+Technologies
+- PHP(CraftCMS)
+- MySQL
+- HTML
+- CSS(SCSS)
+- JavaScript
