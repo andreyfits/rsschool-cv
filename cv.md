@@ -149,3 +149,9 @@ Lower post-secondary vocational education
 Bachelor's degree
 
 - Faculty of Radioengineering and electronics: Information Radiotechnologies
+
+## Languages
+
+English - Intermediate
+
+Russian - Native
