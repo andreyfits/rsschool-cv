@@ -30,3 +30,36 @@ for Oxagile, Websites on the WordPress, and CraftCMS for Effectivesoft Corporati
 - Git
 - Linux
 - Docker
+
+## Code Example
+
+**Task:** *The array of integers is given. It is necessary to shift the zero elements to the end of the array, while maintaining the relative order of the non-zero elements.*
+
+```php
+function ShiftZeroValues($arr)
+{
+    $index = 0;
+    $nullCount = 0;
+    
+    while ($index < count($arr) - $nullCount) {
+        if ($arr[$index] === 0) {
+            array_splice($arr, $index, 1);
+            $arr[] = 0;
+            $nullCount++;
+        } else {
+            $index++;
+        }
+    }
+    
+    return $arr;
+}
+
+function test($arr)
+{
+    printf("[%s] => [%s]\n", implode(', ', $arr),  implode(', ', ShiftZeroValues($arr)));
+}
+
+test([0, 1, -8, 2, 0, 5, 0]); // [1, -8, 2, 5, 0, 0, 0]
+test([4, 0, 6, 0, 0, -5]);    // [4, 6, -5, 0, 0, 0]
+test([2, 5, 9, 1, -7]);       // [2, 5, 9, 1, -7]
+```
