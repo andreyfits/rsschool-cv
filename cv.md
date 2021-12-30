@@ -131,3 +131,21 @@ Technologies
 - HTML
 - CSS(SCSS)
 - JavaScript
+
+## Education
+
+### MGVR College of Engineering
+
+2011-2014
+
+Lower post-secondary vocational education
+
+- Department of Computer Technologies: Information technology
+
+### Belarusian State University of Informatics and Radioelectronics
+
+2014-2018
+
+Bachelor's degree
+
+- Faculty of Radioengineering and electronics: Information Radiotechnologies
