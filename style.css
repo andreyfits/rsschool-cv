@@ -224,6 +224,7 @@ img {
 
 .home-title {
     font-size: var(--h1-font-size);
+    text-transform: uppercase;
 }
 
 .home-profession {
@@ -260,4 +261,26 @@ img {
 .home-button:hover {
     background-color: var(--text-color);
     color: var(--container-color);
+}
+
+/*===== SOCIAL =====*/
+.social-container {
+    grid-template-columns: max-content;
+    gap: 1rem;
+}
+
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    font-size: var(--small-font-size);
+    color: var(--text-color);
+}
+
+.social-link:hover {
+    color: var(--title-color);
+}
+
+.social-icon {
+    font-size: 1.2rem;
+    margin-right: .25rem;
 }
