@@ -289,3 +289,59 @@ img {
 .about-description {
     text-align: center;
 }
+
+/*===== EDUCATION =====*/
+.education-container {
+    row-gap: 2rem;
+}
+
+.education-content {
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+}
+
+.education-year, .education-title {
+    font-size: var(--h3-font-size);
+    margin-bottom: .25rem;
+}
+
+.education-university, .education-specialty {
+    display: block;
+    font-size: var(--smaller-font-size);
+}
+
+.education-year, .education-university {
+    text-align: right;
+}
+
+.education-time {
+    padding: 0 1rem;
+    justify-self: center;
+}
+
+.education-rounder {
+    position: relative;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: var(--text-color-light);
+    border-radius: 50%;
+}
+
+.education-rounder::before {
+    content: '';
+    position: absolute;
+    transform: translate(-4px, -4px);
+    width: 20px;
+    height: 20px;
+    border: 1px solid var(--text-color-light);
+    border-radius: 50%;
+}
+
+.education-line {
+    display: block;
+    height: 90%;
+    width: 2px;
+    background-color: var(--text-color-light);
+    transform: translate(5px, 4px);
+}
