@@ -292,7 +292,7 @@ img {
 
 /*===== EDUCATION =====*/
 .education-container {
-    row-gap: 2rem;
+    gap: 2rem;
 }
 
 .education-content {
@@ -344,4 +344,59 @@ img {
     width: 2px;
     background-color: var(--text-color-light);
     transform: translate(5px, 4px);
+}
+
+.skills-container {
+    gap: 2rem;
+}
+
+.skills-data {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 var(--mb-2);
+    margin-bottom: var(--mb-3);
+}
+
+.skills-name {
+    text-transform: uppercase;
+}
+
+.skills-bar {
+    position: absolute;
+    bottom: -.75rem;
+    height: .25rem;
+    background-color: var(--text-color-light);
+}
+
+.skills-html {
+    width: 80%;
+}
+
+.skills-css {
+    width: 70%;
+}
+
+.skills-js {
+    width: 30%;
+}
+
+.skills-php {
+    width: 70%;
+}
+
+.skills-mysql {
+    width: 60%;
+}
+
+.skills-git {
+    width: 80%;
+}
+
+.skills-linux {
+    width: 60%;
+}
+
+.skills-docker {
+    width: 50%;
 }
