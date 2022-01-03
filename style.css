@@ -403,15 +403,18 @@ img {
 }
 
 /*===== EXPERIENCE =====*/
-.experience-content {
+.experience-content,
+.projects-content {
     display: flex;
 }
 
-.experience-time {
+.experience-time,
+.projects-time {
     padding-right: 1rem;
 }
 
-.experience-rounder {
+.experience-rounder,
+.projects-rounder {
     position: relative;
     display: block;
     width: 16px;
@@ -421,7 +424,8 @@ img {
     margin-top: .25rem;
 }
 
-.experience-line {
+.experience-line,
+.projects-line {
     display: block;
     width: 2px;
     height: 105%;
@@ -429,32 +433,39 @@ img {
     transform: translate(7px, 0);
 }
 
-.experience-data {
+.experience-data,
+.projects-data {
     gap: .5rem;
 }
 
-.experience-title {
+.experience-title,
+.projects-title {
     font-size: var(--h3-font-size);
 }
 
-.experience-company {
+.experience-company,
+.projects-company {
     font-size: var(--smaller-font-size);
     color: var(--title-color);
 }
 
-.experience-company a {
+.experience-company,
+.projects-company a {
     color: var(--title-color);
 }
 
-.experience-items {
+.experience-items,
+.projects-items {
     margin-left: var(--mb-3);
 }
 
-.experience-item {
+.experience-item,
+.projects-item {
     position: relative;
 }
 
-.experience-circle {
+.experience-circle,
+.projects-circle {
     content: '';
     position: absolute;
     display: block;
