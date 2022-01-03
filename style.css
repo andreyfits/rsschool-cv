@@ -402,7 +402,7 @@ img {
     width: 50%;
 }
 
-/*===== EXPERIENCE =====*/
+/*===== EXPERIENCE AND RECENT PROJECTS=====*/
 .experience-content,
 .projects-content {
     display: flex;
@@ -475,4 +475,25 @@ img {
     height: 5px;
     background-color: var(--text-color);
     border-radius: 50%;
+}
+
+/*===== LANGUAGES =====*/
+.languages-content {
+    grid-template-columns: 1fr;
+    gap: 0;
+}
+
+.languages-name {
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--mb-3);
+}
+
+.languages-circle {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: var(--text-color);
+    border-radius: 50%;
+    margin-right: .75rem;
 }
