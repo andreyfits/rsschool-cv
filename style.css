@@ -477,6 +477,16 @@ img {
     border-radius: 50%;
 }
 
+pre {
+    font-size: var(--smaller-font-size);
+    margin: var(--mb-3) 0 0 0;
+}
+
+.code-container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
 /*===== LANGUAGES =====*/
 .languages-content {
     grid-template-columns: 1fr;
@@ -544,10 +554,16 @@ img {
 
 /*===== MEDIA QUERIES =====*/
 /* For small devices, menu two columns */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
     .nav-list {
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem .5rem;
+    }
+
+    pre {
+        font-size: .6rem;
+        overflow-x: auto;
+        margin: var(--mb-3) 0 0 0;
     }
 }
 
