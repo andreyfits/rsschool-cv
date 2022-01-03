@@ -307,7 +307,7 @@ img {
 
 .education-university, .education-specialty {
     display: block;
-    font-size: var(--smaller-font-size);
+    font-size: .75rem;
 }
 
 .education-year, .education-university {
@@ -540,4 +540,69 @@ img {
 .show-scroll {
     visibility: visible;
     bottom: 1rem;
+}
+
+/*===== MEDIA QUERIES =====*/
+/* For small devices, menu two columns */
+@media screen and (max-width: 320px) {
+    .nav-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem .5rem;
+    }
+}
+
+/* Classes modified for large screen size */
+@media screen and (min-width: 968px) {
+    body {
+        margin: 3rem 0;
+    }
+
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header,
+    .scrollTop {
+        display: none;
+    }
+
+    .resume {
+        display: grid;
+        grid-template-columns: .5fr 1fr;
+        background-color: var(--container-color);
+        box-shadow: 0 0 8px rgba(13, 12, 12, .15);
+    }
+
+    .resume-left {
+        background-color: var(--container-color-alt);
+    }
+
+    .resume-left,
+    .resume-right {
+        padding: 0 1.5rem;
+    }
+
+    .section-title,
+    .about-description {
+        text-align: initial;
+    }
+
+    .home-container {
+        gap: 1.5rem;
+    }
+
+    .home-button {
+        display: none;
+    }
+
+    .languages-content {
+        grid-template-columns: repeat(2, max-content);
+        column-gap: 3.5rem;
+    }
+
+    .interests-container {
+        grid-template-columns: repeat(5, max-content);
+        column-gap: 3.5rem;
+    }
 }
