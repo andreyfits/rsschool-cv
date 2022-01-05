@@ -420,7 +420,7 @@ function ShiftZeroValues($arr)
     $index = 0;
     $nullCount = 0;
 
-    while ($index < count($arr) - $nullCount) {
+    while ($index &lt; count($arr) - $nullCount) {
         if ($arr[$index] === 0) {
             array_splice($arr, $index, 1);
             $arr[] = 0;
@@ -449,7 +449,6 @@ test([2, 5, 9, 1, -7]);
                     </div>
                 </div>
             </section>
-
 
             <!--===== LANGUAGES =====-->
             <section class="languages section" id="languages">
