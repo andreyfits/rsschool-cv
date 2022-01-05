@@ -45,18 +45,6 @@ html {
     scroll-behavior: smooth;
 }
 
-/*========== Variables Dark theme ==========*/
-
-
-/*========== Button Dark/Light ==========*/
-
-
-/*========== Font size variables to scale cv ==========*/
-
-
-/*========== Generate PDF button ==========*/
-
-
 /*========== Classes modified to reduce size and print on A4 sheet ==========*/
 body {
     margin: var(--header-height) 0 0 0;
@@ -526,6 +514,33 @@ pre {
     margin-bottom: .25rem;
 }
 
+/*===== FOOTER ======*/
+.footer {
+    background-color: #e8e8e8;
+    padding: 1rem;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: var(--text-color);
+}
+
+.github-icon {
+    font-size: 1.5rem;
+    color: var(--text-color-light);
+}
+
+.rss-logo {
+    width: 80px;
+    height: 30px;
+    background-image: url("./assets/svg/rs_school_js.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 /*====== SCROLL TOP ======*/
 .scrollTop {
     position: fixed;
@@ -620,5 +635,13 @@ pre {
     .interests-container {
         grid-template-columns: repeat(5, max-content);
         column-gap: 3.5rem;
+    }
+
+    .footer {
+        max-width: 968px;
+        width: calc(100% - 3rem);
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0 0 8px rgba(13, 12, 12, .15);
     }
 }
