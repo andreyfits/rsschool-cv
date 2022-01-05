@@ -1,4 +1,4 @@
-![Personal Photo](./images/photo.jpg "Andrey Fits")
+![Personal Photo](./assets/img/photo.jpg "Andrey Fits")
 
 # Andrey Fits 
 
