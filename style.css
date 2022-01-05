@@ -199,6 +199,7 @@ img {
 
 .home-data {
     gap: .5rem;
+    padding-bottom: 1.5rem;
     text-align: center;
 }
 
@@ -233,22 +234,6 @@ img {
 .home-icon {
     font-size: 1.2rem;
     margin-right: .25rem;
-}
-
-.home-button {
-    display: inline-block;
-    border: 2px solid var(--text-color);
-    color: var(--title-color);
-    padding: 1rem 2rem;
-    border-radius: .25rem;
-    transition: .3s;
-    font-weight: var(--font-medium);
-    margin-top: var(--mb-3);
-}
-
-.home-button:hover {
-    background-color: var(--text-color);
-    color: var(--container-color);
 }
 
 /*===== SOCIAL =====*/
@@ -627,10 +612,6 @@ pre {
 
     .home-container {
         gap: 1.5rem;
-    }
-
-    .home-button {
-        display: none;
     }
 
     .languages-content {
