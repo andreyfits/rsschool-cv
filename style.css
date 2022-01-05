@@ -419,7 +419,7 @@ img {
     color: var(--title-color);
 }
 
-.experience-company,
+.experience-company a,
 .projects-company a {
     color: var(--title-color);
 }
