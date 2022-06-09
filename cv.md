@@ -59,6 +59,19 @@ Faculty of Radioengineering and electronics: Information Radiotechnologies
 
 ### PHP Developer
 
+Nov 2021 - Till Now
+
+[EPAM Systems, Inc.](https://www.epam.com/)
+
+- Developed the backend part
+- Sprint Planning & Backlog grooming
+- Search and elimination of bugs
+- Refactoring old code
+- Was involved in meetings with customers
+- Made code review and code refactoring of colleagues (GitHub)
+
+### PHP Developer
+
 Jul 2021 - Oct 2021
 
 [Oxagile](https://www.oxagile.com/)
@@ -84,7 +97,19 @@ Jul 2020 - Jun 2021
 
 ## Recent projects
 
-### CRM system for removing illegitimate negative reviews
+### Retail & Distribution
+
+[Wayfair Inc.](https://wayfair.com/)
+
+Wayfair Inc. is an American e-commerce company that sells furniture and home goods. Formerly known as CSN Stores, the company was founded in 2002. Their digital platform offers 14 million items from more than 11,000 global suppliers.
+
+Technologies
+- PHP
+- Python
+- MSSQL
+- HTML
+- CSS
+- JavaScript
 
 [Consumer Fusion](https://consumerfusion.com/)
 
