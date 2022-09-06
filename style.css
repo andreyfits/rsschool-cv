@@ -509,6 +509,12 @@ pre {
     color: var(--text-color);
 }
 
+.footer-link {
+    line-height: 0;
+    font-size: 0;
+    color: transparent;
+}
+
 .github-icon {
     font-size: 1.5rem;
     color: var(--text-color-light);
@@ -520,6 +526,13 @@ pre {
     background-image: url("./assets/svg/rs_school_js.svg");
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.footer-link,
+.rss-logo {
+    line-height: 0;
+    font-size: 0;
+    color: transparent;
 }
 
 /*====== SCROLL TOP ======*/
@@ -536,6 +549,9 @@ pre {
     z-index: var(--z-tooltip);
     transition: .4s;
     visibility: hidden;
+    line-height: 0;
+    font-size: 0;
+    color: transparent;
 }
 
 .scrollTop-icon {
