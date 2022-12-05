@@ -248,6 +248,22 @@ img {
     margin-right: .25rem;
 }
 
+.home__button-download {
+    display: inline-block;
+    border: 2px solid var(--text-color);
+    color: var(--title-color);
+    padding: 1rem 2rem;
+    border-radius: .25rem;
+    transition: var(--transition-fast);
+    font-weight: var(--font-medium);
+    margin-top: var(--mb-3);
+}
+
+.home__button-download:hover {
+    background-color: var(--text-color);
+    color: var(--container-color);
+}
+
 /*==================== SOCIAL ====================*/
 .social__container {
     grid-template-columns: max-content;
@@ -640,6 +656,10 @@ pre {
 
     .home__container {
         gap: 1.5rem;
+    }
+
+    .home__button-download {
+        display: none;
     }
 
     .languages__content {
