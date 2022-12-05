@@ -45,7 +45,7 @@
                 </li>
                 <li class="nav__item">
                     <a href="#experience" class="nav__link">
-                        <i class="bx bx-briefcase nav__icon"></i>Work Experience
+                        <i class="bx bx-briefcase nav__icon"></i>Experience
                     </a>
                 </li>
                 <li class="nav__item">
@@ -106,6 +106,8 @@
                         </span>
                     </div>
                 </div>
+                <!-- Theme change button -->
+                <i class='bx bxs-moon change-theme' title="Theme" id="theme-button"></i>
             </section>
 
             <!--==================== SOCIAL ====================-->
@@ -489,7 +491,7 @@
                     <div class="code__content">
                         <p class="code__description"><strong>Task: </strong><i>The array of integers is given. It is necessary to shift the zero elements to the end of the array, while maintaining the relative order of the non-zero elements.</i></p>
                         <pre>
-function shiftZeroValues($arr)
+function ShiftZeroValues($arr)
 {
     $index = 0;
     $nullCount = 0;
@@ -512,7 +514,7 @@ function test($arr)
     printf(
         "[%s] =&gt; [%s]\n",
         implode(', ', $arr),
-        implode(', ', shiftZeroValues($arr))
+        implode(', ', ShiftZeroValues($arr))
     );
 }
 

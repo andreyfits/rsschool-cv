@@ -3,12 +3,13 @@
     --header-height: 3rem;
 
     /*==================== Colors =====================*/
-    --title-color: #0B0A0A;
-    --text-color: #403A3A;
-    --text-color-light: #707070;
-    --container-color: #FAFAFA;
-    --container-color-alt: #F0EFEF;
-    --body-color: #FCFCFC;
+    --title-color: #090808;
+    --text-color: #423d3d;
+    --text-color-light: #737373;
+    --container-color: #fafafa;
+    --container-color-alt: #efecec;
+    --body-color: #faf9f9;
+    --footer-color: #f3f3f3;
 
     /*==================== Font and typography ====================*/
     --body-font: 'Poppins', sans-serif;
@@ -46,10 +47,28 @@ html {
 }
 
 /*==================== Variables Dark theme ====================*/
-
+body.dark-theme {
+    --title-color: #f1f0f0;
+    --text-color: #bebebe;
+    --container-color: #1c1c1c;
+    --container-color-alt: #1a1717;
+    --body-color: #2d2d2d;
+    --footer-color: #383838;
+}
 
 /*==================== Button Dark/Light ====================*/
+.change-theme {
+    position: absolute;
+    left: 0;
+    top: 1.5rem;
+    color: var(--text-color);
+    font-size: 1.2rem;
+    cursor: pointer;
+}
 
+.change-theme:hover {
+    color: var(--title-color);
+}
 
 /*==================== Font size variables to scale cv ====================*/
 
@@ -90,7 +109,7 @@ img {
     height: auto;
 }
 
-/*====================================================================== CLASS CSS ====================*/
+/*==================== CLASS CSS ====================*/
 .section {
     padding: 1.5rem 0;
 }
@@ -309,6 +328,9 @@ img {
 .education__university, .education__specialty {
     display: block;
     font-size: .75rem;
+    inline-size: 100px;
+    overflow-wrap: normal;
+    hyphens: manual;
 }
 
 .education__year, .education__university {
@@ -528,7 +550,7 @@ pre {
 
 /*==================== FOOTER ====================*/
 .footer {
-    background-color: #e8e8e8;
+    background-color: var(--footer-color);
     padding: 1rem;
 }
 
