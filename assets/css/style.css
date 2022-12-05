@@ -7,9 +7,9 @@
     --text-color: #423d3d;
     --text-color-light: #737373;
     --container-color: #fafafa;
-    --container-color-alt: #efecec;
+    --container-color-alt: #eeeeee;
     --body-color: #faf9f9;
-    --footer-color: #f3f3f3;
+    --footer-color: #fff;
 
     /*==================== Font and typography ====================*/
     --body-font: 'Poppins', sans-serif;
@@ -70,13 +70,6 @@ body.dark-theme {
     color: var(--title-color);
 }
 
-/*==================== Font size variables to scale cv ====================*/
-
-
-/*==================== Generate PDF button ====================*/
-
-
-/*==================== Classes modified to reduce size and print on A4 sheet ====================*/
 body {
     margin: var(--header-height) 0 0 0;
     padding: 0;
@@ -569,7 +562,7 @@ pre {
 }
 
 .github-icon {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: var(--text-color-light);
 }
 
@@ -667,7 +660,7 @@ pre {
     }
 
     .resume__left,
-    .resume-right {
+    .resume__right {
         padding: 0 1.5rem;
     }
 
