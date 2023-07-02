@@ -212,9 +212,11 @@ test([2, 5, 9, 1, -7]);       // [2, 5, 9, 1, -7]
 
 ## Languages
 
-English - Intermediate
+English — Intermediate
 
-Russian - Native
+Russian — Native
+
+Belarusian — Native
 
 ## Interests
 
