@@ -125,6 +125,7 @@ Technologies
 - JavaScript
 - JQuery
 - API
+- Bootstrap
 
 ### Retail & Distribution
 
