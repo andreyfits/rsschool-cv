@@ -110,6 +110,22 @@ Jul 2020 - Jun 2021
 
 ## Recent projects
 
+### Ecommerce
+
+[Blossom Flower](https://www.blossomflowerdelivery.com/)
+
+Blossom Flower Delivery is committed to quality and service. Our guarantee is our personal commitment to our customers to create long term relationships. Your satisfaction is our Number One priority, not just because it’s our job, but because we really do care.
+
+Technologies
+- PHP
+- Woocommerce
+- MySQL
+- HTML
+- CSS
+- JavaScript
+- JQuery
+- API
+
 ### Retail & Distribution
 
 [Wayfair Inc.](https://wayfair.com/)
