@@ -59,7 +59,20 @@ Faculty of Radioengineering and electronics: Information Radiotechnologies
 
 ### PHP Developer
 
-Nov 2021 - Till Now
+Apr 2023 - Jun 2023
+
+[Lime Vizio](https://www.limevizio.com/)
+
+- Planning
+- Development of new features
+- Fixing Bugs in PHP code
+- Search and elimination of bugs
+- Refactoring old code
+- Made code review and code refactoring of colleagues
+
+### PHP Developer
+
+Nov 2021 - Feb 2023
 
 [EPAM Systems, Inc.](https://www.epam.com/)
 
