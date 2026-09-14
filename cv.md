@@ -2,7 +2,7 @@
 
 # Andrey Fits 
 
-## PHP Developer
+## Backend Developer
 
 Address: Brest, Belarus
 
