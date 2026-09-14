@@ -18,12 +18,7 @@ Phone: +375 44 729-10-96
 
 ## About me
 
-Experienced PHP Developer with experience working in the information technology and services industry. Skills in
-programming on PHP, MySQL, and other information technology. As someone who takes responsibility for his
-own personal development, I'm continually evaluating and upgrading my skills in order to stay at the cutting plane
-of web development. Created backend part of Consumer Fusion(Web Portal for business management), Internal CRM system
-for Oxagile, Websites on the WordPress, and CraftCMS for Effectivesoft Corporation.
-
+Senior Backend Engineer with 6+ years of experience in large-scale platforms, including B2B iGaming, enterprise e-commerce, and hosting infrastructure. Proficient in PHP, Laravel, Symfony components, MySQL, Redis, REST APIs, PHPUnit, and background jobs, with hands-on experience in high-load systems, back-office tooling, and platform optimization. Focused on improving performance, scalability, and reliability of production systems serving millions of users and hundreds of thousands of websites, as well as building internal tools to streamline operational workflows.
 
 ## Education
 
