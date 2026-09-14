@@ -49,11 +49,6 @@
                     </a>
                 </li>
                 <li class="nav__item">
-                    <a href="#projects" class="nav__link">
-                        <i class="bx bx-task nav__icon"></i>Recent Project
-                    </a>
-                </li>
-                <li class="nav__item">
                     <a href="#code" class="nav__link">
                         <i class="bx bx-code nav__icon"></i>Code Example
                     </a>
@@ -568,7 +563,7 @@
                     <div class="code__content">
                         <p class="code__description"><strong>Task: </strong><i>The array of integers is given. It is necessary to shift the zero elements to the end of the array, while maintaining the relative order of the non-zero elements.</i></p>
                         <pre>
-function ShiftZeroValues($arr)
+function shiftZeroValues($arr)
 {
     $index = 0;
     $nullCount = 0;
@@ -591,7 +586,7 @@ function test($arr)
     printf(
         "[%s] =&gt; [%s]\n",
         implode(', ', $arr),
-        implode(', ', ShiftZeroValues($arr))
+        implode(', ', shiftZeroValues($arr))
     );
 }
 
