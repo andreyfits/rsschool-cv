@@ -386,36 +386,37 @@ img {
     background-color: var(--text-color-light);
 }
 
-.skills-html {
+.skills-html,
+.skills-php,
+.skills-git,
+.skills-mysql {
     width: 80%;
 }
 
-.skills-css {
+.skills-redis {
+    width: 75%;
+}
+
+.skills-css,
+.skills-laravel,
+.skills-symfony,
+.skills-postgresql,
+.skills-linux,
+.skills-kibana {
     width: 70%;
 }
 
 .skills-js {
-    width: 30%;
+    width: 40%;
 }
 
-.skills-php {
-    width: 70%;
+.skills-phpunit {
+    width: 65%;
 }
 
-.skills-mysql {
-    width: 60%;
-}
-
-.skills-git {
-    width: 80%;
-}
-
-.skills-linux {
-    width: 60%;
-}
-
+.skills-grafana,
 .skills-docker {
-    width: 50%;
+    width: 60%;
 }
 
 /*==================== EXPERIENCE AND RECENT PROJECTS====================*/
