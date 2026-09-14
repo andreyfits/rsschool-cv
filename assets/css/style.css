@@ -419,19 +419,16 @@ img {
     width: 60%;
 }
 
-/*==================== EXPERIENCE AND RECENT PROJECTS====================*/
-.experience__content,
-.projects-content {
+/*==================== EXPERIENCE ====================*/
+.experience__content {
     display: flex;
 }
 
-.experience__time,
-.projects-time {
+.experience__time {
     padding-right: 1rem;
 }
 
-.experience__rounder,
-.projects-rounder {
+.experience__rounder {
     position: relative;
     display: block;
     width: 16px;
@@ -441,8 +438,7 @@ img {
     margin-top: .25rem;
 }
 
-.experience__line,
-.projects-line {
+.experience__line {
     display: block;
     width: 2px;
     height: 105%;
@@ -450,39 +446,28 @@ img {
     transform: translate(7px, 0);
 }
 
-.experience__data,
-.projects-data {
+.experience__data {
     gap: .5rem;
 }
 
-.experience__title,
-.projects-title {
+.experience__title {
     font-size: var(--h3-font-size);
 }
 
-.experience__company,
-.projects-company {
+.experience__company {
     font-size: var(--smaller-font-size);
     color: var(--title-color);
 }
 
-.experience__company a,
-.projects-company a {
-    color: var(--title-color);
-}
-
-.experience__items,
-.projects-items {
+.experience__items {
     margin-left: var(--mb-3);
 }
 
-.experience__item,
-.projects__item {
+.experience__item {
     position: relative;
 }
 
-.experience__circle,
-.projects__circle {
+.experience__circle {
     content: '';
     position: absolute;
     display: block;
