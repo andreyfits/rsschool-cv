@@ -120,7 +120,7 @@ Siteguarding - Investigated and remediated security incidents across hundreds of
 **Task:** *The array of integers is given. It is necessary to shift the zero elements to the end of the array, while maintaining the relative order of the non-zero elements.*
 
 ```php
-function ShiftZeroValues($arr)
+function shiftZeroValues($arr)
 {
     $index = 0;
     $nullCount = 0;
@@ -140,7 +140,7 @@ function ShiftZeroValues($arr)
 
 function test($arr)
 {
-    printf("[%s] => [%s]\n", implode(', ', $arr),  implode(', ', ShiftZeroValues($arr)));
+    printf("[%s] => [%s]\n", implode(', ', $arr),  implode(', ', shiftZeroValues($arr)));
 }
 
 test([0, 1, -8, 2, 0, 5, 0]); // [1, -8, 2, 5, 0, 0, 0]
