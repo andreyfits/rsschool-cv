@@ -58,56 +58,62 @@ Faculty of Radioengineering and electronics: Information Radiotechnologies
 
 ## Work Experience
 
-### PHP Developer
+### Senior Backend Developer
 
-Apr 2023 - Jun 2023
+Apr 2025 - Current
 
-[Lime Vizio](https://www.limevizio.com/)
+Softgamings - Global iGaming provider serving 100M+ players with 50B+ annual transactions
 
-- Planning
-- Development of new features
-- Fixing Bugs in PHP code
-- Search and elimination of bugs
-- Refactoring old code
-- Made code review and code refactoring of colleagues
+- Developed a backoffice tournament testing interface from scratch, reducing manual validation effort by 70% by enabling internal checks of player status, balances, bets, wins, and free-round distribution
+- Optimized MySQL queries and Laravel-based API flows, reducing response times by 30-40% during peak player activity
+- Implemented cron-based background jobs to migrate thousands of players between database shards, ensuring scalability and data consistency
+- Added new endpoint validations across loyalty APIs, reducing invalid loyalty states and manual rechecks by 50%
+- Maintained backend APIs, covered core business logic with PHPUnit tests, and monitored Kafka event flows and production systems using Grafana and Kibana, ensuring stability of business-critical flows
 
-### PHP Developer
+### Senior Backend Developer
 
-Nov 2021 - Feb 2023
+Mar 2023 - Apr 2025
 
-[EPAM Systems, Inc.](https://www.epam.com/)
+Webhost1 - Large hosting platform serving 130K+ active websites in production
 
-- Developed the backend part
-- Sprint Planning & Backlog grooming
-- Search and elimination of bugs
-- Refactoring old code
-- Was involved in meetings with customers
-- Made code review and code refactoring of colleagues (GitHub)
+- Developed and maintained Symfony backend services for a hosting platform serving 130,000+ active websites
+- Implemented and supported Vue-based frontend components integrated with Symfony APIs
+- Rewrote a legacy VDS/VPS purchasing module, improving reliability for core revenue-generating flows
+- Designed and implemented Stripe-based payment workflows, handling high-volume recurring and one-time payments
+- Built a real-time online chat using Go and WebSockets, increasing message exchange speed by 80%
+- Optimized backend code and MySQL queries, reducing response times and lowering production incidents on high-load services
 
-### PHP Developer
+### Backend Developer
 
-Jul 2021 - Oct 2021
+Nov 2021 - Mar 2023
 
-[Oxagile](https://www.oxagile.com/)
+EPAM - Global engineering company serving 345+ Forbes Global 2000 clients across 55+ countries
 
-- Development frontend and backend parts of the admin panel
-- Was involved in estimations
-- Discussions and meetings with the customer
-- Improvements after comments of QA, customer, and designer
-- Made code review and code refactoring of colleagues (GitLab)
+- Developed and maintained PHP backend services for a high-load enterprise e-commerce platform serving 21M+ customers
+- Supported backend systems handling 30M+ products and complex business logic
+- Refactored legacy PHP code and optimized SQL queries, improving performance and stability
+- Collaborated with distributed teams across multiple regions, ensuring reliable delivery
 
-### PHP Developer
+### Backend Developer
 
-Jul 2020 - Jun 2021
+Jul 2020 - Nov 2021
 
-[EffectiveSoft Corporation](https://www.effectivesoft.com/)
+EffectiveSoft - Global software engineering company with 23+ years of experience and 1,000+ projects
 
-- Developed and designed the whole backend part
-- Was involved in estimations
-- Was involved in meetings with the customer
-- Improvements after comments of QA, customer, and designer
-- Made code review and code refactoring of colleagues (BitBucket)
-- Support and release in production helped with the selection and configuration of server technologies
+- Developed and maintained a production website supporting 70+ category launches for enterprise clients (Uber, Robinhood, Newsela)
+- Ensured platform performance and reliability linked to 5X–8X valuation growth
+- Refactored and optimized legacy PHP code, reducing technical debt and improving long-term stability
+
+### Backend Developer
+
+Mar 2017 - Jun 2020
+
+Siteguarding - Investigated and remediated security incidents across hundreds of websites
+
+- Removed malware from hundreds of compromised websites, cleaning PHP/JavaScript codebases and databases
+- Restored affected websites to production state within hours, improving availability and post-incident performance
+- Identified attack vectors via log and database analysis, preventing recurring security incidents
+- Optimized backend code and database queries after cleanup, stabilizing performance and reducing repeat infections
 
 ## Recent projects
 
