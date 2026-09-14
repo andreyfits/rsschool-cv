@@ -40,15 +40,21 @@ Faculty of Radioengineering and electronics: Information Radiotechnologies
 
 ## Skills
 
+- PHP
+- Symfony
+- Laravel
+- PHPUnit
+- MySQL
+- PostgreSQL
+- Redis
+- Git
 - HTML5
 - CSS3
 - JavaScript Basics
-- PHP
-- MySQL
-- Git
 - Linux
 - Docker
-
+- Grafana
+- Kibana
 
 ## Work Experience
 
