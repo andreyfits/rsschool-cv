@@ -1,4 +1,4 @@
-![Personal Photo](./assets/img/photo.jpg "Andrey Fits")
+<img src="./assets/img/photo.jpg" alt="Personal Photo" width="350">
 
 # Andrey Fits 
 
